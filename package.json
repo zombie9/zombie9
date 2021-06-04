@@ -1,8 +1,8 @@
 {
-  "name": "node-static-template",
+  "name": "zombie9",
   "version": "1.0.1",
-  "description": "node based template with webpack & babel for static sites",
-  "repository": "github:zombie9/node-static-template",
+  "description": "zombie9 site",
+  "repository": "github:zombie9/zombie9",
   "main": "main.js",
   "scripts": {
     "clean": "rimraf dist/*",
