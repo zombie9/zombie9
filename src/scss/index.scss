@@ -32,7 +32,7 @@
   width: 50%;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 8%;
+  grid-gap: 12% 8%;
 
   @media screen and (max-width: 480px) {
     width: 90%;
@@ -51,6 +51,22 @@
   transform: scale(1, 1);
   transition: background-color, transform;
   transition-duration: 1s;
+  background-size: contain;
+  position: relative;
+
+  .caption {
+    position: absolute;
+    bottom: 9%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity;
+    transition-duration: 1s;
+    font-size: 0.75em;
+    color: $primary;
+    font-family: "varela-round";
+  }
 }
 
 .circle:after {
@@ -63,4 +79,9 @@
   transform: scale(1.1, 1.1);
   transition-duration: 1s;
   background-color: $dark;
+
+  .caption {
+    opacity: 100%;
+    transition-duration: 1s;
+  }
 }
