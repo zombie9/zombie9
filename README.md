@@ -1,3 +1,3 @@
 # zombie9
-Hi I am Darryl Banks, Web Developer
+Darryl Banks, Web Developer
 
